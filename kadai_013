@@ -1,0 +1,5 @@
+def item(price, tax):
+  total_price = price * tax
+  print(f"{total_price}円" )
+
+item(500, 1.10)
